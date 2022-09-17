@@ -4,17 +4,6 @@ This project was created for a company todo studycase.
 
 ![App](./assets/todo.png)
 
-## Docker
-[docker-compose](https://github.com/docker/compose) can use for application as container, plase firstly install:
-
-[docker-compose install](https://docs.docker.com/compose/install/)
-
-an then in the directory;
-### `docker-compose up`
-
-After the build, you can access to app via http://localhost:3000 
-
-
 ## Installation & Start (3 steps)
 
 Note: Please use 'yarn or npm' and install all packaged before the all steps.

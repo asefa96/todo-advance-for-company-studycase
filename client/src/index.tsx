@@ -5,9 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { store } from "./store";
 import { Provider } from "react-redux";
-import './index.css';
-
-
+import "./index.css";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -15,7 +13,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <>
-    <Provider store={store}> 
+    <Provider store={store}>
       <App />
     </Provider>
   </>
